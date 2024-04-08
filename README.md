@@ -1,25 +1,39 @@
 # ObstacleRobot-
-# ObstacleBot
+# Obstacle Avoidance Robot
 
 ## Description
-ObstacleBot is a 4-wheel robot equipped with 2 distance sensors for autonomously avoiding obstacles. This project aims to implement a controller algorithm that enables the robot to navigate its environment safely.
+This project involves creating a 4-wheel robot equipped with 2 ultrasonic distance sensors to detect obstacles and implementing a controller algorithm to enable the robot to autonomously avoid obstacles.
 
 ## Components
 - 4-wheel robot chassis
 - 4 DC motors
 - Motor driver module (e.g., L298N)
-- Microcontroller board (e.g., Arduino Uno)
+- Arduino Uno or similar microcontroller
 - 2 ultrasonic distance sensors (e.g., HC-SR04)
 - Breadboard and jumper wires
 - Battery pack or power source
 
-## Controller Algorithm
-The controller algorithm reads distance values from the ultrasonic sensors and adjusts motor speeds based on obstacle detection to navigate around obstacles autonomously.
+## Assembly
+1. Assemble the 4-wheel robot chassis and mount the DC motors on it.
+2. Connect the motors to the motor driver module, and connect the motor driver module to the Arduino.
+3. Connect the ultrasonic distance sensors to the Arduino.
+4. Power the Arduino and motors using a suitable power source.
 
-## Repository Structure
-- `controller_code/`: Contains the Arduino sketch for the controller.
-- `schematics/`: Contains the schematic diagram of the robot.
-- `documentation/`: Contains optional project documentation such as a detailed project report.
+## Controller Algorithm
+The controller algorithm is implemented using Arduino and involves reading distance values from the ultrasonic sensors and adjusting motor speeds based on obstacle detection.
+
+## Usage
+1. Upload the provided Arduino sketch to the Arduino board.
+2. Power on the robot.
+3. The robot should now autonomously avoid obstacles detected by the ultrasonic sensors.
+
+## Contributors
+- [Your Name]
+
+## License
+[License information]
+
+
 
 ## Usage
 1. Assemble the robot according to the schematic diagram provided.
